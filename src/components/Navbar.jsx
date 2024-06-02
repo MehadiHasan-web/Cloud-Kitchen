@@ -9,7 +9,7 @@ const Navbar = () => {
         {/* profile and logo section start */}
         <div className="flex justify-between items-center h-full w-full">
           {/* logo section start */}
-          <RiBarChartHorizontalFill className="text-gray-200 text-2xl"></RiBarChartHorizontalFill>
+          <RiBarChartHorizontalFill className="text-[#40464C] text-2xl"></RiBarChartHorizontalFill>
           {/* logo section end */}
           {/* profile section start */}
           <div className="avatar online">
@@ -23,14 +23,14 @@ const Navbar = () => {
         {/* search adn card section start */}
         <div className="flex justify-center items-center h-full w-full gap-10">
           {/* search section start */}
-          <label className="input input-bordered flex items-center gap-2 w-[30%] text-white inputBg shadow-[#2D3639] shadow-2xl rounded-xl">
+          <label className="input input-bordered flex items-center gap-2 w-full sm:w-[60%] md:w-[45%] lg:w-[30%] text-white bg-[#00C2C3] shadow-[#2D3639] shadow-2xl rounded-md">
             <FaSearch></FaSearch>
-            <input type="text" className="grow w-full text-white" placeholder="search" />
+            <input type="text" className="grow w-full text-white" />
           </label>
           {/* search section end */}
           {/* profile section start */}
           <div className="avatar online">
-          <FaShoppingCart className="text-gray-200 text-2xl"></FaShoppingCart>
+          <FaShoppingCart className="text-[#2D3639] text-2xl"></FaShoppingCart>
           </div>
           {/* profile section end */}
         </div>
