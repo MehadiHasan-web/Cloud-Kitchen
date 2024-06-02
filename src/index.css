@@ -2,10 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+/* base color  */
+.black{
+  background-color: #2D3639;
+}
+.mini-black{
+  background-color: #40494c;
+}
+.white{
+  background-color: #FFFFFF;
+}
+.blue{
+  background-color: #00C2C3;
+}
+
+
 
 .inputBg{
   background: #2d3639;
-background: linear-gradient(359deg,#2d3639 0%, #40494c 80%);
-background: -webkit-linear-gradient(359deg,#2d3639 0%, #40494c 80%);
-background: -moz-linear-gradient(359deg,#2d3639 0%, #40494c 80%);
+  background: linear-gradient(359deg,#2d3639 0%, #40494c 80%);
+  background: -webkit-linear-gradient(359deg,#2d3639 0%, #40494c 80%);
+  background: -moz-linear-gradient(359deg,#2d3639 0%, #40494c 80%);
 }
