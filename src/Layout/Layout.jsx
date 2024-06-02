@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 
 const Layout = () => {
   return (
-    <div className="">
+    <div className="bg-[#FFFFFF]">
       {/* navbar section start */}
       {/* <Navbar></Navbar> */}
       {/* navbar section end */}
