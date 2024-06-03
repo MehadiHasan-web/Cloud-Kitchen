@@ -23,9 +23,9 @@ const Navbar = () => {
         {/* search adn card section start */}
         <div className="flex justify-center items-center h-full w-full gap-10">
           {/* search section start */}
-          <label className="input input-bordered flex items-center gap-2 w-full sm:w-[60%] md:w-[45%] lg:w-[30%] text-white bg-[#00C2C3] shadow-[#2D3639] shadow-2xl rounded-md">
+          <label className="input input-bordered flex items-center gap-2 w-full sm:w-[60%] md:w-[45%] lg:w-[30%] text-white bg-[#00C2C3] shadow-[#2D3639] shadow-2xl rounded-md ">
             <FaSearch></FaSearch>
-            <input type="text" className="grow w-full text-white" />
+            <input type="text" className="grow w-full text-white focus-within:outline-0 focus:outline-0" />
           </label>
           {/* search section end */}
           {/* profile section start */}
