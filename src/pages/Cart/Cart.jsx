@@ -125,16 +125,14 @@ const Cart = () => {
           {data.description}
         </td>
         <td>
-        <div className="flex items-center gap-2 border-[2px] border-black rounded-3xl justify-center w-full lg:w-1/2">
-      <FaPlus className="text-base" onClick={incrementBtn} />
+        <div className="flex items-center gap-2 border-[2px] border-black rounded-3xl justify-center w-full sm:w-1/2 md:w-full lg:w-2/3 xl:w-1/2">
+      <FaPlus className="text-xs sm:text-sm md:text-xs lg:text-base" onClick={incrementBtn} />
       <span>{quantity}</span>
-      <FaMinus className="text-base" onClick={decrementBtn} />
+      <FaMinus className="text-xs sm:text-sm md:text-xs lg:text-base" onClick={decrementBtn} />
     </div>
         </td>
       </tr>)
       }
-      
-
     </tbody>
   </table>
           </div>
@@ -155,7 +153,7 @@ const Cart = () => {
         {/* main section end */}
       </div>
       {/* mobile card section start */}
-      <div className={`md:hidden w-full bg-white top-0 ${open ? 'right-0 p-9': '-right-96 p-8'} bottom-0 flex items-center z-30 fixed  duration-300`}>
+      <div className={`md:hidden w-full bg-white top-0 ${open ? 'right-0 p-9': '-right-[100%] p-6'} bottom-0 flex items-center z-30 fixed  duration-300`}>
         <div className="absolute z-10 top-[50%] -ml-11 bg-gray-400 rounded-full">
           {
             open ? <FaAngleRight onClick={() => setOpen(!open)} className="text-3xl"></FaAngleRight>:<FaAngleLeft onClick={() => setOpen(!open)} className="text-3xl"></FaAngleLeft>
