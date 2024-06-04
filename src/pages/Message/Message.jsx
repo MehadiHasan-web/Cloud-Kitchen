@@ -6,14 +6,17 @@ import Users from "./Users";
 const Message = () => {
   return (
     <div>
-      <MessageNav></MessageNav>
+      {/* <MessageNav></MessageNav> */}
       {/* content section start */}
       <div className="flex justify-center h-screen">
-        <div className="w-[40%] bg-red-300 h-full">
+        <div className="w-[40%]  h-full">
           <Users></Users>
         </div>
-        <div className="w-[60%] bg-slate-400 h-full">
-          <ChatOption></ChatOption>
+        <div className="w-[60%]   pt-[1px] pb-[1px] pr-[1px] ">
+          <div className=" h-full bg-slate-100 rounded">
+            <ChatOption></ChatOption>
+          </div>
+
         </div>
       </div>
       {/* content section end */}
