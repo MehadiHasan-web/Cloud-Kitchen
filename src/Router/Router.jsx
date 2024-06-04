@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "../App";
 import Layout from './../Layout/Layout';
-import Product from './../page/Product';
 import Home from "../pages/Home/Home";
 import Cart from "../pages/Cart/Cart";
+import Product from "../pages/Product/Product";
+import Message from "../pages/Message/Message";
 
 
 // router section start
@@ -18,7 +18,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/product",
-        element: <Product />,
+        element: <Product></Product>
       },
       {
         path: "/cart",
@@ -26,4 +26,8 @@ export const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: '/message',
+    element: <Message></Message>
+  }
 ]);

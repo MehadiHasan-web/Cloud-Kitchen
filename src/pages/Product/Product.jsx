@@ -1,4 +1,4 @@
-import food from '../../public/img/food.png'
+import food from '../../../public/img/food.png'
 import { GiSelfLove } from "react-icons/gi";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { GrCart } from "react-icons/gr";
@@ -32,7 +32,7 @@ function Product() {
 
 
         <>
-            <div className="h-screen white hidden">
+            <div className="h-screen white-bg hidden">
                 <div className="h-3/6 relative">
                     <div className="absolute left-0 right-0 top-6">
                         <div className="px-4 flex justify-between">
